@@ -1,0 +1,230 @@
+.header{
+    font-size: 55px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Lobster', cursive;
+}
+body{
+    background-image: url('travel.jpg');
+   background-size: 100% 250%;
+   background-repeat: no-repeat;
+
+    
+  }
+  h2{
+    font-size: medium;
+  }
+.heading{
+  color: red;
+  margin-left: 550px;
+  font-weight: bold;
+  font-family:  'Lobster', cursive;
+  font-size: 40px;
+}
+.form{
+  margin-left: 400px;
+  font-family: 'Lobster', cursive;
+  font-size: 15px;
+    width:35%;
+    box-shadow: 8px 8px 8px 8px  black;
+    padding:15px;
+    border-radius: 5px;
+    height: 80%;
+    background-color:white;  
+
+}
+
+#abc:focus{
+  outline:none;
+  border-left: 5px solid blue;
+  border-right:5px solid blue;
+  border-top:none;
+  border-bottom:none;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#abc{
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 0px;
+  outline: none;
+   border-color:  black;
+   border-width: 1px;
+}
+#check{
+ margin-top: 20px;
+ font-family: 'Lobster', cursive;
+ 
+}
+.extra{
+  display: flex;
+  
+ font-weight: bold;
+margin-top: 10px;
+}
+
+.btn{
+   margin-left: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 70px;
+  border-radius: 6px;
+  border-color: black;
+  border-style: hidden;
+  background-color: blue;
+  color: white;
+}
+pre{
+  margin-left: 50px;
+  font-family: 'Lobster', cursive;
+}
+.btn:hover{
+   cursor: pointer;
+    background-color:black;
+    color:orange;
+    border-bottom: 5px solid orange;
+   transition: 0.5s;
+  
+}
+.head{
+  color: red;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  margin-top: 0px;
+  
+}
+.nav{
+  background-color:white;
+  z-index:9;
+  padding:10px;
+  padding-right:50px;
+  padding-left:50px;
+  display: flex;
+  box-shadow: 0px 2px 60px  rgba(0,0,0,15);
+  height:13%;
+}
+.nav_top{
+  position:fixed;
+  top: 0;
+  right: 0;
+  left:0;
+
+}
+.logo{
+  width:60%;
+  float: left;
+ 
+}
+.logo img{
+ padding:10px;
+ width:45%;
+ margin-top: 0;
+ padding-left:0;
+ height: 100%;
+ 
+}
+.navside{
+  float: right;
+  width:60%;
+  padding-top:20px;
+  margin-top: 10px;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.navside a{
+ text-decoration: none;
+ margin-right: 20px;
+ 
+ color:black;
+ font-weight: bold;
+ font-family:cosmic,sans-serif;
+ font-size:16px;
+
+
+}
+
+.navside a:hover{
+ color:orange;
+ text-decoration: underline;
+ transition: all 1s ease;
+}
+#card{
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 0px;
+  outline: none;
+   border-color:  black;
+   border-width: 1px;
+}
+#card:focus{
+  outline:none;
+  border-left: 10px solid red;
+  border-right:10px solid  red;
+  border-top:none;
+  border-bottom:none;
+  
+  
+}
+.container2{
+  margin-top: 100px;
+  margin-left: 170px;
+  font-family:  'Lobster', cursive;
+font-weight: bolder;
+color: white;
+display: flex;
+flex-wrap: wrap;
+}
+.from{
+  padding: 40px;
+  margin-left: 0px;
+}
+.to{
+  padding: 40px;
+  margin-right: 0%;
+}
+.date{
+  padding: 40px;
+  margin-left: 0px;
+}
+.class{
+  padding: 40px;
+  margin-right: 0%;
+}
+.button{
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-bottom: 15px;
+  width: 70px;
+  border-radius: 6px;
+  border-color: black;
+  border-style: hidden;
+  background-color: blue;
+  color: white;
+  width: 15%;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+  font-size: 15px;
+  margin-left: 400px;
+  margin-bottom: 30px;
+
+}
+.button:hover{
+  cursor: pointer;
+  background-color:black;
+  color:orange;
+  border-bottom: 5px solid orange;
+ transition: 0.5s;
+ 
+}
+.def{
+background-image: url("abcd.jpg");
+background-repeat: no-repeat;
+background-size: 100% 110%; 
+}
